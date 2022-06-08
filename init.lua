@@ -43,7 +43,7 @@ minetest.register_craftitem("boba_tea:brown_sugar_tea", {
 })
 
 minetest.register_craftitem("boba_tea:fresh_milk_tea", {
-    description = S("Tapioca Ball"),
+    description = S("Fresh Milk Boba Tea"),
 	inventory_image = "milk_boba_tea.png",
 	on_use = minetest.item_eat(8, "vessels:drinking_glass")
 })
